@@ -26,7 +26,7 @@ model = "meta-llama/llama-4-scout-17b-16e-instruct"
 #model="llama-3.2-90b-vision-preview" #Deprecated
 
 def analyze_image_with_query(query, model, encoded_image):
-    client=Groq(api_key = "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")  
+    client=Groq(api_key = "GROQ_API_KEY")  
     messages=[
         {
             "role": "user",
